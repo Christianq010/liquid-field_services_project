@@ -1,0 +1,71 @@
+/* ========================================================================================== */
+/*  MIXINS
+/* ========================================================================================== */
+
+
+/* ============================== */
+/*  Background Gradient - Linear
+/* ============================== */
+
+@mixin background-gradient-linear($from,$to) {
+	background-color: $from;
+	background-image: linear-gradient(top,$from,$to);
+}
+
+
+/* ============================== */
+/*  Background Gradient - Radial
+/* ============================== */
+
+@mixin background-gradient-radial($from,$to) {
+	background-color: $from;
+	background-image: radial-gradient(50% 50%,$from,$to);
+}
+
+
+/* ============================== */
+/*  Fonts
+/* ============================== */
+
+@mixin primary-font() {
+	font-family: "", sans-serif;
+	font-weight: normal;
+}
+
+@mixin secondary-font() {
+	font-family: "", sans-serif;
+	font-weight: normal;
+}
+
+@mixin tertiary-font() {
+	font-family: "", sans-serif;
+	font-weight: normal;
+}
+
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+}
+
+
+/* ============================== */
+/*  Placeholder
+/* ============================== */
+
+@mixin placeholder($color) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+
+	&::-moz-placeholder {
+		color: $color;
+	}
+
+	&:-moz-placeholder {
+		color: $color;
+	}
+
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
