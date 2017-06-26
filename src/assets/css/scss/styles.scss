@@ -1,72 +1,3 @@
-@import
-/* ========================================================================================== */
-
-
-/*  SCSS
-/* ========================================================================================== */
-
-
-/* ============================== */
-
-
-/*  Bourbon & Neat
-/* ============================== */
-
-"bourbon/bourbon",
-"neat/neat",
-
-/* ============================== */
-
-
-/*  Modules
-/* ============================== */
-
-"modules/variables",
-"modules/functions",
-"modules/mixins",
-"modules/extends",
-
-/* ============================== */
-
-
-/*  Bower
-/* ============================== */
-
-"bower/normalize.css/normalize",
-
-/* ============================== */
-
-
-/*  Partials
-/* ============================== */
-
-"partials/typography",
-"partials/layout",
-"partials/header",
-"partials/footer",
-"partials/alerts",
-"partials/navigation",
-"partials/content",
-"partials/sidebar",
-"partials/buttons",
-"partials/forms",
-"partials/animations",
-
-/* ============================== */
-
-
-/*  Pages
-/* ============================== */
-
-"pages/home",
-
-/* ============================== */
-
-
-/*  Print
-/* ============================== */
-
-"partials/print";
 // Template styles
 $font-primary: 'Work Sans',
 Arial,
@@ -257,6 +188,9 @@ figure {
         padding: 0;
         text-transform: uppercase;
         font-weight: bold;
+        img {
+            height: 1em;
+        }
         @media screen and (max-width: $screen-sm) {
             margin-bottom: 0;
         }
@@ -265,6 +199,12 @@ figure {
                 color: $brand-secondary;
             }
         }
+    }
+    .fsl-logo {
+        height: 10em;
+        width: 7em;
+        text-align: center;
+        padding: 0.2em;
     }
     a {
         padding: 5px 10px;
