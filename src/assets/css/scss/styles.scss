@@ -2,6 +2,10 @@
 $font-primary: 'Work Sans',
 Arial,
 sans-serif;
+$font-secondary: 'Great Vibes',
+cursive;
+$font-third: 'Volkhov',
+serif;
 // Overrides
 $grid-gutter-width: 40px !default;
 $border-radius-base: 4px !default;
@@ -183,6 +187,7 @@ figure {
         padding: 20px 0;
     }
     #fh5co-logo {
+        font-family: $font-third;
         font-size: 24px;
         margin: 0 0 2em 0;
         padding: 0;
@@ -582,11 +587,14 @@ figure {
             margin-top: 0;
             font-size: 60px;
             line-height: 1.5;
-            text-transform: uppercase;
+            // text-transform: uppercase;
             font-weight: 300;
             @media screen and (max-width: $screen-sm) {
                 font-size: 40px;
             }
+        }
+        .display-slogan {
+            font-family: $font-secondary;
         }
         h2 {
             font-size: 20px;
