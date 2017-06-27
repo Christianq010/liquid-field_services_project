@@ -1,5 +1,7 @@
 Project made using [Liquid](http://github.com/ryanaltvater/generator-liquid), a [Yeoman](http://yeoman.io) generator for building WordPress and static projects with the following: Scotch Box (Vagrant), Gulp, SCSS, BrowserSync.
 
+Hosted via the VentureKPQ Firebase account at - (https://field-services-limited.firebaseapp.com)
+
 ## Table of contents
 
 - [Commands](#commands)
@@ -76,6 +78,11 @@ Builds source code to the theme folder.
 
 ```bash
 $ gulp build
+```
+
+**Deploy on Frebase**
+```
+$ firebase deploy
 ```
 
 ### <a name="commands-csscomb"></a>[CSScomb](http://csscomb.com)
