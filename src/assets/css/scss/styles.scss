@@ -210,6 +210,10 @@ figure {
         width: 7em;
         text-align: center;
         padding: 0.2em;
+        @media screen and (max-width: $screen-sm) {
+            // display: none;
+            margin-bottom: 2em;
+        }
     }
     a {
         padding: 5px 10px;
@@ -388,7 +392,7 @@ figure {
         top: 0;
         left: 0;
         right: 0;
-        background: rgba(42, 54, 59, .9);
+        background: rgba(42, 54, 59, .7);
     }
     >.fh5co-container {
         position: relative;
@@ -404,7 +408,10 @@ figure {
         display: table;
         width: 100%;
         @media screen and (max-width: $screen-sm) {
-            height: 600px;
+            height: 700px;
+        }
+        @media screen and (max-width: $screen-xs) {
+            height: 800px;
         }
     }
     &.fh5co-cover-sm {
