@@ -661,6 +661,10 @@ figure {
     }
 }
 
+#fh5co-contact {
+    padding: 7em 0 0 0;
+}
+
 #fh5co-testimonial {
     .testimonial {
         background: $brand-white;
@@ -1292,6 +1296,20 @@ figure {
             }
         }
     }
+}
+
+// Google Map 
+#map_wrapper {
+    height: 400px;
+    padding: 1em;
+    @media screen and (max-width: 480px) {
+        height: 200px;
+    }
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
 }
 
 #fh5co-footer {
