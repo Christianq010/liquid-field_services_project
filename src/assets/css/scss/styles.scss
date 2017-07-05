@@ -1568,7 +1568,7 @@ figure {
     z-index: 2001;
     border-bottom: none!important;
     @media screen and (max-width: $screen-sm) {
-        display: block;
+        // display: block;
     }
 }
 
