@@ -107,3 +107,6 @@ csscomb src/assets/scss/
 
 - [Atom](https://atom.io/packages/atom-css-comb)
 - [Sublime Text](https://packagecontrol.io/packages/CSScomb)
+
+**How to Run**
+- Build Vagrant machine and then run gulp from terminal.
