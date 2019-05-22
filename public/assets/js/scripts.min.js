@@ -2,7 +2,7 @@
 /*  field-services-limited
 /*  A project created by Liquid, a Yeoman generator.
 /*  
-/*  Copyright © 2017. Released under the MIT license.
+/*  Copyright © 2019. Released under the MIT license.
 /*  https://github.com/ryanaltvater/generator-liquid
 /* ========================================================================================== */
 
